@@ -1,5 +1,7 @@
 package edu.cnm.deepdive;
 
+import java.util.Arrays;
+
 public class Array2 {
 
   public boolean either24(int[] nums) {
@@ -21,19 +23,30 @@ public class Array2 {
 
 
   public int[] pre4(int[] nums) {
-    public int[] pre4(int[] nums) {
-      int j = 0;
-      for(i = 0, int k = 0; (k <= j && i < nums.length); i++){
-        j++
-        if(nums[i] == 4){
-          break;
-        }
+    int[] x {};
+    for(int i = 0; i < nums.length; i++){
+      if(nums[i]==4){
+        x = Arrays.copyOf(nums, i);
+        break;
       }
-      int dums[j];
-      for(; ; k++ ){
-
-      }
-
     }
+    return x;
+  }
+}
+
+    public int[] pre4(int[] nums) {
+//      int j = 0;
+//      for(i = 0, int k = 0; (k <= j && i < nums.length); i++){
+//        j++
+//        if(nums[i] == 4){
+//          break;
+//        }
+//      }
+//      int dums[j];
+//      for(; ; k++ ){
+//
+//      }
+//      private static
+//    }
   }
 }
