@@ -3,7 +3,9 @@ package edu.cnm.deepdive;
 public class Array2 {
 
   public boolean either24(int[] nums) {
-    for (int i = 0, j = 1; (j < nums.length && i < nums.length-1); i++, j++) {
+    boolean found2 = false;
+    boolean found4 = false;
+    for (int i = 0;  i < nums.length-1); i++) {
       if ((nums[i] == 2 && nums[i + 1] == 2) && (nums[j] == 4 && nums[j - 1] == 4)) {
         return false;
       } else if (nums[i] == 2 && nums[i + 1] == 2) {
